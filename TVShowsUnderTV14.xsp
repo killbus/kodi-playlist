@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<smartplaylist type="tvshows">
+    <name>TV Shows Under TV-14</name>
+    <match>one</match>
+    <rule field="mpaarating" operator="endswith">
+        <value>Y</value>
+    </rule>
+    <rule field="mpaarating" operator="endswith">
+        <value>Y7</value>
+    </rule>
+    <rule field="mpaarating" operator="endswith">
+        <value>G</value>
+    </rule>
+</smartplaylist>

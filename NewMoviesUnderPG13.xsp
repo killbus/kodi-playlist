@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<smartplaylist type="movies">
+    <name>New Movies Under PG-13</name>
+    <match>all</match>
+    <rule field="playlist" operator="is">
+        <value>Movies Under PG-13</value>
+    </rule>
+    <order direction="descending">dateadded</order>
+</smartplaylist>
